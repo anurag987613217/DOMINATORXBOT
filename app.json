@@ -1,0 +1,38 @@
+{
+    "name": "ʜᴀɴᴀ ᴄʜᴀᴛʙᴏᴛ",
+    "description": "ʜᴇʟʟᴏ, ɪ ᴀᴍ ʜᴀɴᴀ ᴀɴ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴛ ᴄʜᴀᴛʙᴏᴛ. ɪғ ʏᴏᴜʙᴀʀᴇ ғᴇᴇʟɪɴɢ ʟᴏɴᴇʟʏ, ʏᴏᴜ ᴄᴀɴ ᴀʟᴡᴀʏs ᴄᴏᴍᴇ ᴛᴏ ᴍᴇ ᴀɴᴅ ᴄʜᴀᴛ ᴡɪᴛʜ ᴍᴇ!",
+    "logo": "https://te.legra.ph/file/b9eab8788d5c8bcb85f9f.jpg",
+    "repository": "https://github.com/dominator454/ChatRobot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "telegram bot token here",
+            "required": true
+        },
+        "HANA_API": {
+            "description": "Please Don't Change",
+            "value": "1098149434-KUKIJJ5Lph3NK3",
+            "required": true
+        },
+        "ERROR_LOG": {
+            "description": "error channel log id",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "mongo db url here",
+            "required": true
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
