@@ -49,7 +49,7 @@ async def addchat(_, message):
     is_hana = hana.find_one({"chat_id": message.chat.id})
     if not is_hana:
         hana.insert_one({"chat_id": message.chat.id})
-        await message.reply_text(f"✅ | sᴜᴄᴄᴇssғᴜʟʟʏ\nʜᴀɴᴀ ᴄʜᴀᴛʙᴏᴛ ᴏɴ ᴏғ ᴛʜɪs ɢʀᴏᴜᴘ ɪs sᴇᴛ ᴛᴏ @{message.chat.username}\n ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ [{message.from_user.first_name}](tg://user?id={message.from_user.id})\nᴘᴏᴡᴇʀᴇᴅ ʙʏ 『⚜ -𝘿𝙊𝙈𝙄𝙉𝘼𝙏𝙊𝙍 𝘽𝙊𝙏 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 - ⚜』 { 🇮🇳 }")
+        await message.reply_text(f"✅ | sᴜᴄᴄᴇssғᴜʟʟʏ\nʜᴀɴᴀ ᴄʜᴀᴛʙᴏᴛ ᴏɴ ᴏғ ᴛʜɪs ɢʀᴏᴜᴘ ɪs sᴇᴛ ᴛᴏ @{message.chat.username}\n ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ [{message.from_user.first_name}](tg://user?id={message.from_user.id})\nᴘᴏᴡᴇʀᴇᴅ ʙʏ ⚜ -𝘿𝙊𝙈𝙄𝙉𝘼𝙏𝙊𝙍 𝘽𝙊𝙏 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 - ⚜")
     else:
         await message.reply_text(f"» ᴀʟʀᴇᴀᴅʏ sᴇᴛᴜᴘ ʜᴀɴᴀ ᴄʜᴀᴛʙᴏᴛ ᴇɴᴀʙʟᴇ ᴏғ ᴛʜɪs ɢʀᴏᴜᴘ ɪs @{message.chat.username}")
 
@@ -177,13 +177,13 @@ async def start(client, message):
     if message.chat.type != "private":
         buttons = [[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/dominator_bot_official"),
                    InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/dominator_bot_support"),],
-                  [InlineKeyboardButton(text="ᴄʟɪᴄᴋ ʜᴇʀᴇ", url=f"t.me/HanachatRobot?start")]]
+                  [InlineKeyboardButton(text="ᴄʟɪᴄᴋ ʜᴇʀᴇ", url=f"https://t.me/Hanachat_bot?start")]]
         await message.reply("ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴇʀsᴏɴᴀʟ",
                             reply_markup=buttons)
         
     else:
         buttons = [[
-            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/HanaChatRobot?startgroup=true")
+            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/Hanachat_bot?startgroup=true")
         ],
         
         [
