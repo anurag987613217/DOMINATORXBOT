@@ -1,4 +1,4 @@
-# ᴄʜᴀᴛ ʀᴏʙᴏᴛ
+# ʜᴀɴᴀ ᴄʜᴀᴛ ʀᴏʙᴏᴛ
 
 <p align="center"><a href="https://t.me/dominator_bot_support"><img src="https://telegra.ph/file/ead43f0d45168434474e6.jpg"></a></p>
 
