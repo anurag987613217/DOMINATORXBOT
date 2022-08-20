@@ -7,7 +7,7 @@
     "userbot",
     "plugin",
     "telethon",
-    "Ultronbot",
+    "Dominatorbot",
     "modular",
     "productivity"
   ],
@@ -18,7 +18,7 @@
       "value": "ANYTHING"
     },
     "ABUSE": {
-      "description": "Leave it blank if you dont want Profanity in UltronBot. Else Fill ON.",
+      "description": "Leave it blank if you dont want Profanity in DominatorBot. Else Fill ON.",
       "value": "ON",
       "required": false
     },
@@ -34,7 +34,7 @@
       "description": "Get this value from my.telegram.org",
       "value": ""
     },
-    "ULTRONBOT_SESSION": {
+    "DOMINATORBOT_SESSION": {
       "description": "Get this value by using repl or termux. Refer to Repo for more info.",
       "value": ""
     },
