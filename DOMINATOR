@@ -21,16 +21,16 @@ repo.heads[_BRANCH_].checkout(True) ')
 
 _dominator_repo () {
     local hrepo
-    hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORFhUSEFOT1MvVUxUUk9OVVNFUkJPVA==" | base64 -d`
+    hrepo=`echo "" | base64 -d`
     echo "$rlink"
 }
 
 _dominater_zip () {
-    echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORFhUSEFOT1MvVUxUUk9OVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    echo "" | base64 -d
 }
 
 _DOMINATORBOT_PLUG() {
-    local hrepo=$(_ultron_repo)
+    local hrepo=$(_dominator_repo)
     $(_python_ 'from git import Repo
 import sys
 _UPSTREAM_ = "'$hrepo'"
