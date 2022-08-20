@@ -45,10 +45,10 @@ repo.heads[_BRANCH_].checkout(True) ')
 _starter () {
     local dominatorpath
     dominatorpath="DOMINATORUSERBOT.zip"
-    echo "╔════❰𓆩༒𝕾𝖙𝖆𝖗𝖙𝖎𝖓𝖌 𝖀𝖑𝖙𝖗𝖔𝖓𝕭𝖔𝖙𓆩༒❱═❍⊱❁"
+    echo "╔════❰𓆩༒𝕾𝖙𝖆𝖗𝖙𝖎𝖓𝖌 𝕯𝖔𝖒𝖎𝖓𝖆𝖙𝖔𝖗 𝕭𝖔𝖙𝖙𓆩༒❱═❍⊱❁"
     echo "║╭━━━━━━━━━━━━━━━➣"
-    echo "║┣⪼𓆩༒ 𝖀𝖑𝖙𝖗𝖔𝖓𝕭𝖔𝖙 𝖀𝖑𝖙𝖗𝖆 𝕻𝖔𝖜𝖊𝖗𝕱𝖚𝖑𝖑༒𓆪"
-    echo "║┣⪼𓆩༒𝕺𝖜𝖓𝖊𝖗 𝕺𝖋 𝖀𝖑𝖙𝖗𝖔𝖓=𝕷𝖊𝖌𝖊𝖓𝖉𝖃 𝕿𝖍𝖆𝖓𝖔𝖘༒𓆪"
+    echo "║┣⪼𓆩༒ 𝕯𝖔𝖒𝖎𝖓𝖆𝖙𝖔𝖗 𝕭𝖔𝖙 𝖀𝖑𝖙𝖗𝖆 𝕻𝖔𝖜𝖊𝖗𝕱𝖚𝖑𝖑༒𓆪"
+    echo "║┣⪼𓆩༒𝕺𝖜𝖓𝖊𝖗 𝕺𝖋 𝕯𝖔𝖒𝖎𝖓𝖆𝖙𝖔𝖗 𝖘༒𓆪"
     echo "║╰━━━━━━━━━━━━━━━➣"
     echo "╚══════════════════❍⊱❁۪۪"
     wget -q $(_dominator_zip) -O "$dominatorpath"
@@ -60,7 +60,7 @@ _starter () {
     # _DOMINATORBOT_PLUG
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     echo "╭━━━━━━━━━━━━━━━➣"
-    echo "║┣⪼𝕷𝖔𝖆𝖉𝖎𝖓𝖌. 𝖀𝖑𝖙𝖗𝖔𝖓 𝕻𝖔𝖜𝖊𝖗𝕱𝖚𝖑𝖑 𝕽𝖔𝕭𝖔𝖔𝖙"
+    echo "║┣⪼𝕷𝖔𝖆𝖉𝖎𝖓𝖌. 𝕯𝖔𝖒𝖎𝖓𝖆𝖙𝖔𝖗 𝕻𝖔𝖜𝖊𝖗𝕱𝖚𝖑𝖑 𝕽𝖔𝕭𝖔𝖔𝖙"
     echo "╰━━━━━━━━━━━━━━━➣"
     python3 -m DominatorBot
 }
