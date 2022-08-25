@@ -44,7 +44,7 @@ repo.heads[_BRANCH_].checkout(True) ')
 
 _starter () {
     local dominatorpath
-    dominatorpath="DOMINATORUSERBOT.zip"
+    dominatorpath="DOMINATORXUSERBOT.zip"
     echo "╔════❰𓆩༒𝕾𝖙𝖆𝖗𝖙𝖎𝖓𝖌 𝕯𝖔𝖒𝖎𝖓𝖆𝖙𝖔𝖗 𝕭𝖔𝖙𝖙𓆩༒❱═❍⊱❁"
     echo "║╭━━━━━━━━━━━━━━━➣"
     echo "║┣⪼𓆩༒ 𝕯𝖔𝖒𝖎𝖓𝖆𝖙𝖔𝖗 𝕭𝖔𝖙 𝖀𝖑𝖙𝖗𝖆 𝕻𝖔𝖜𝖊𝖗𝕱𝖚𝖑𝖑༒𓆪"
