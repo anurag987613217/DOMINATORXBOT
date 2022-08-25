@@ -21,12 +21,12 @@ repo.heads[_BRANCH_].checkout(True) ')
 
 _dominator_repo () {
     local hrepo
-    hrepo=`echo "" | base64 -d`
+    hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL2RvbWluYXRvcjQ1NC9ET01JTkFUT1JYVVNFUkJPVA==" | base64 -d`
     echo "$rlink"
 }
 
 _dominater_zip () {
-    echo "" | base64 -d
+    echo "aHR0cHM6Ly9naXRodWIuY29tL2RvbWluYXRvcjQ1NC9ET01JTkFUT1JYVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
 }
 
 _DOMINATORBOT_PLUG() {
