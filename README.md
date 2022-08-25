@@ -10,7 +10,7 @@
 </h6>
 
 
-[![](https://img.shields.io/badge/LegendBot-v2.0-blue)](#)
+[![](https://img.shields.io/badge/DOMINATORXBOT-v1.0-blue)](#)
 [![Stars](https://img.shields.io/github/stars/dominator454/LEGENDBOT?style=flat-square&color=yellow)](https://github.com/dominator454/LEGENDBOT/stargazers)
 [![Forks](https://img.shields.io/github/forks/dominator454/LEGENDBOT?style=flat-square&color=orange)](https://github.com/dominator454/LEGENDBOT/fork)
 [![Size](https://img.shields.io/github/repo-size/dominator454/LEGENDBOT?style=flat-square&color=green)](https://github.com/dominator454/LEGENDBOT/)   
