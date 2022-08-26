@@ -8,10 +8,8 @@ _python_() {
 _DOMINATORBOT_MAIN() {
     $(_python_ 'from git import Repo
 import sys
-
 _UPSTREAM_ = "https://github.com/dominator454/DOMINATORXBOT"
 _BRANCH_ = "master"
-
 repo = Repo.init()
 origin = repo.create_remote("temponame", _UPSTREAM_)
 origin.fetch()
@@ -25,7 +23,7 @@ _dominator_repo () {
     echo "$rlink"
 }
 
-_dominater_zip () {
+_dominator_zip () {
     echo "aHR0cHM6Ly9naXRodWIuY29tL2RvbWluYXRvcjQ1NC9ET01JTkFUT1JYVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
 }
 
@@ -44,11 +42,11 @@ repo.heads[_BRANCH_].checkout(True) ')
 
 _starter () {
     local dominatorpath
-    dominatorpath="DOMINATORXUSERBOT.zip"
-    echo "╔════❰𓆩༒𝕾𝖙𝖆𝖗𝖙𝖎𝖓𝖌 𝕯𝖔𝖒𝖎𝖓𝖆𝖙𝖔𝖗 𝕭𝖔𝖙𝖙𓆩༒❱═❍⊱❁"
+    dominatorpath="DOMINATORXSERBOT.zip"
+    echo "╔════❰𓆩༒𝕾𝖙𝖆𝖗𝖙𝖎𝖓𝖌𓆩༒❱═❍⊱❁"
     echo "║╭━━━━━━━━━━━━━━━➣"
-    echo "║┣⪼𓆩༒ 𝕯𝖔𝖒𝖎𝖓𝖆𝖙𝖔𝖗 𝕭𝖔𝖙 𝖀𝖑𝖙𝖗𝖆 𝕻𝖔𝖜𝖊𝖗𝕱𝖚𝖑𝖑༒𓆪"
-    echo "║┣⪼𓆩༒𝕺𝖜𝖓𝖊𝖗 𝕺𝖋 𝕯𝖔𝖒𝖎𝖓𝖆𝖙𝖔𝖗 𝖘༒𓆪"
+    echo "║┣⪼𓆩༒  𝖀𝖑𝖙𝖗𝖆 𝕻𝖔𝖜𝖊𝖗𝕱𝖚𝖑𝖑༒𓆪"
+    echo "║┣⪼𓆩༒𝕺𝖜𝖓𝖊𝖗 𝕺𝖋 ༒𓆪"
     echo "║╰━━━━━━━━━━━━━━━➣"
     echo "╚══════════════════❍⊱❁۪۪"
     wget -q $(_dominator_zip) -O "$dominatorpath"
@@ -60,7 +58,7 @@ _starter () {
     # _DOMINATORBOT_PLUG
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     echo "╭━━━━━━━━━━━━━━━➣"
-    echo "║┣⪼𝕷𝖔𝖆𝖉𝖎𝖓𝖌. 𝕯𝖔𝖒𝖎𝖓𝖆𝖙𝖔𝖗 𝕻𝖔𝖜𝖊𝖗𝕱𝖚𝖑𝖑 𝕽𝖔𝕭𝖔𝖔𝖙"
+    echo "║┣⪼𝕷𝖔𝖆𝖉𝖎𝖓𝖌.  𝕻𝖔𝖜𝖊𝖗𝕱𝖚𝖑𝖑 𝕽𝖔𝕭𝖔𝖔𝖙"
     echo "╰━━━━━━━━━━━━━━━➣"
     python3 -m DominatorBot
 }
