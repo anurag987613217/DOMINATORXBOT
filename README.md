@@ -1,8 +1,8 @@
-[![LEGEND-LX](https://te.legra.ph/file/c414381b7f545421a0b7c.jpg)](https://github.com/LEGEND-LX)
+[![DOMINATOR](https://te.legra.ph/file/c414381b7f545421a0b7c.jpg)](https://github.com/LEGEND-LX)
 
 
 <h1 align="center">
-<b> 『Dominatorẞø†』 </b>
+<b> 『🔱Ꭰօʍìղąէօɾ βօէ🔱』 </b>
 </h1>
 
 <h6 align="center">
