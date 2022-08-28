@@ -27,7 +27,7 @@
 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dominator454/DOMINATORXBOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 <h4> Deploy Coming Soon </h4>
 
@@ -136,7 +136,7 @@
 - Paste the OTP received on Telegram.
 - If You have Enabled 2-Step Verification then fill your password.
 - Note that Termux Doesn't show passwords when filled. Just paste your password and hit enter.
-- Your Invisible LegendBot Session Will be saved in your Telegram Saved Message.
+- Your DOMINATORBOT Session Will be saved in your Telegram Saved Message.
 
 -----------
 
