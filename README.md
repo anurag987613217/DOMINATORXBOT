@@ -25,7 +25,9 @@
 
 <h4> Deploy Dominator ẞø† </h4>
 
+[![Dominator ẞø†](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@dominator454/stringforbot?v=1)
 
+ * OPEN REPEL AND SELECT 1 FOR USERBOT 2 FOR MUSIC BOT ADD REQUIREMENTS
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -57,7 +59,7 @@
 
 - Clone the repo. 
 
-`git clone https://github.com/dominator454/GANTA MERA NIKAL LOWDE.git`
+`git clone https://github.com/dominator454/DOMINATORXBOT.git`
 - Open Cloned Folder.
 
 `cd DOMINATORXBOT NEW`
@@ -84,7 +86,7 @@
 
 - `APP_ID`  =  Get this value from my.telegram.org
 - `API_HASH`  =  Get this value from my.telegram.org
-- `DOMINATORBOT_STRING`  =  Get this by using [Repl.it](#Repl) or from [terminal](#Terminal)
+- `DOMINATORBOT_STRING`  =  Get this by using [Repl.it](https://replit.com/@dominator454/stringforbot?v=1) or from [terminal](#Terminal)
 - `LOGGER_ID`  =  Make A Channel And Get it's ID.
 - `BOT_TOKEN`  =  Make A Bot From [@BotFather](https://t.me/botfather) and paste it's token.
 - `BOT_USERNAME`  =  Get the username of that Bot made from [@Botfather](https://t.me/botfather)
